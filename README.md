@@ -1,4 +1,4 @@
-# Computer Network - Assignment1 - Group 5 - L07 - HK211
+# Computer Network - Assignment 1 - Group 5 - L07 - HK211
 ### Danh sách thành viên:
 1. Ngô Thị Hà Bắc - 1912700
 2. Võ Thị Na - 1914210
@@ -23,7 +23,7 @@ python ClientLauncher.py <server_host> <server_port> <RTP_port> <video_file>
 ```
 Trong đó: 
 - server_host là tên của máy chủ đang chạy
-- server_portlà cổng nơi máy chủ đang lắng nghe
+- server_port là cổng nơi máy chủ đang lắng nghe
 - RTP_port là cổng nơi các gói RTP được nhận
 - video_file là tên của tệp video bạn muốn yêu cầu 
 
