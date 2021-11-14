@@ -25,7 +25,8 @@ Trong đó:
 - server_host là tên của máy chủ đang chạy
 - server_portlà cổng nơi máy chủ đang lắng nghe
 - RTP_port là cổng nơi các gói RTP được nhận
-- video_file là tên của tệp video bạn muốn yêu cầu \
+- video_file là tên của tệp video bạn muốn yêu cầu 
+
 Ví dụ với server_host là localhost, server_port là 3000, RTP_port là 101 và video_file là movie.Mjpeg:
 ```python
 python ClientLauncher.py localhost 3000 101 movie.Mjpeg
