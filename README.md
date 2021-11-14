@@ -11,6 +11,7 @@
 Để chạy chương trình mở rộng, di chuyển đến thư mục Extend2_3_4.
 
 Tại thư mục tương ứng, ta mở 2 terminal và thực hiện lần lượt như sau:
+
 Trong terminal thứ nhất, ta chạy server với câu lệnh:
 ```python
 python Server.py <server_port>
