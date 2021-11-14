@@ -202,7 +202,7 @@ class Client:
             #Thiết lập kết nối TCP
             self.rtspSocket.connect((self.serverAddr, self.serverPort))
         except:
-            #Nếu không thiết lập được thfi thông báo
+            #Nếu không thiết lập được thì thông báo
             tkinter.messagebox.showwarning('Connection Failed', 'Connection to \'%s\' failed.' % self.serverAddr)
 
     def sendRtspRequest(self, requestCode):
@@ -303,10 +303,10 @@ class Client:
                 if int(lines[0].split(' ')[1]) == 200:
 
                     if self.requestSent == self.SETUP:
-                        #Trngaj thái sẵn sàng
+                        #Trạng thái sẵn sàng
                         self.state = self.READY
 
-                        #Mở Soclet để bắt đầu gửi các gói RTP
+                        #Mở Socket để bắt đầu gửi các gói RTP
                         self.openRtpPort()
                     elif self.requestSent == self.PLAY:
                         #Trạng thái đang phát
@@ -335,7 +335,7 @@ class Client:
             #Ràng buộc Socket với địa chỉ RTP do máy chủ cung cấp
             self.rtpSocket.bind(("", self.rtpPort))
         except:
-            #Nếu không kết nối được thfi gửi thông báo
+            #Nếu không kết nối được thì gửi thông báo
             tkinter.messagebox.showwarning(
                 'Unable to Bind', 'Unable to bind PORT=%d' % self.rtpPort)
 
