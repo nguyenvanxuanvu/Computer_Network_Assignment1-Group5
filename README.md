@@ -6,7 +6,11 @@
 4. Nguyễn Văn Xuân Vũ - 1915982
 
 ### Hướng dẫn chạy chương trình:
+Để chạy chương trình cơ bản, di chuyển đến thư mục \textbf{Main\_Extend1}. 
 
+Để chạy chương trình mở rộng, di chuyển đến thư mục \textbf{Extend2\_3\_4}.
+
+Tại thư mục tương ứng, ta mở 2 terminal và thực hiện lần lượt như sau:
 Trong terminal thứ nhất, ta chạy server với câu lệnh:
 ```python
 python Server.py <server_port>
@@ -17,7 +21,7 @@ python Server.py <server_port>
 python Server.py 3000
 ```
 
-Trong terminal thứ hai hoặc các terminal khác, chạy client với câu lệnh:
+Trong terminal thứ hai, chạy client với câu lệnh:
 ```python
 python ClientLauncher.py <server_host> <server_port> <RTP_port> <video_file>
 ```
